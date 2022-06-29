@@ -1,6 +1,11 @@
 # VOICE-QUERY-ASSISTANT-with-SV2TTS
 Voice query assistant to request and receive information about a course, such as, professor's contact information, course schedule, exam and assignment dates and grading, etc. It also includes a voice cloning feature that allows to reproduce the answer of the query with the corresponding professor's voice. This is done using the SV2TTS tool by Corentin Jemine (https://github.com/CorentinJ/Real-Time-Voice-Cloning).
 
+To this end, we have created a syllabus template (docx), which will be converted into a database (csv). This will be done using "converter.py". We have also created a 15 question bank (available in "Questions.pdf" in "Sillabi & Questions" folder). 
+
+Then, in order to execute "voice_assistant.py" follow the next steps:
+
+
 **1. Install Requirements**
 
 Python 3.7 is needed to run the tool.
@@ -30,7 +35,7 @@ Some configurations are needed in the code:
 
 - py voice_assistant.py    
 
-The user will ask one of the possible fifteen questions (available in "Questions.pdf" in "Sillabi & Questions" folder) and this will be captures by the microphone. After performing the SQL query, the answer will be reproduced with the corresponding professor's cloned voice.
+The user will ask one of the possible fifteen questions and this will be captures by the microphone. After performing the SQL query, the answer will be reproduced with the corresponding professor's cloned voice.
 
 **4. Test similarity with Resemblyzer**
 
