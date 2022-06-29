@@ -5,12 +5,12 @@ Voice query assistant to request and receive information about a course, such as
 
 Python 3.7 is needed to run the tool
 
-- Speech Recognition
+Speech Recognition:
 pip install SpeechRecognition
 pip install pydub
 pip install pyaudio
 
-- SV2TTS
+SV2TTS:
 #Clone repository
 git clone https://github.com/CorentinJ/Real-Time-Voice-Cloning.git
 #Select directory
