@@ -5,7 +5,7 @@ https://hawkiit-my.sharepoint.com/:b:/g/personal/namezagavelez_hawk_iit_edu/ESZj
 
 Voice query assistant to request and receive information about a course, such as, professor's contact information, course schedule, exam and assignment dates and grading, etc. It also includes a voice cloning feature that allows to reproduce the answer of the query with the corresponding professor's voice. This is done using the SV2TTS tool by Corentin Jemine (https://github.com/CorentinJ/Real-Time-Voice-Cloning). 
 
-To this end, we have created a syllabus template (docx), which will be converted into a database (csv). This will be done using "converter.py". We have also created a 15 question bank (available in "15_question_bank.pdf" in "Example" folder). 
+To this end, we have created a syllabus template (docx), which will be converted into a database (csv). This will be done using "converter.py". We have also created a 15 question bank (available in "15_question_bank.pdf" in "Example" directory). 
 
 Then, in order to execute "voice_assistant.py" follow the next steps:
 
@@ -46,3 +46,6 @@ The user will ask one of the possible fifteen questions and this will be capture
 The Python package Resemblyzer allows to compare and analyze the cloned voices and the real ones. It provides several demos explained at: https://github.com/resemble-ai/Resemblyzer. To install it:
 - git clone https://github.com/resemble-ai/Resemblyzer.git
 - pip install resemblyzer
+
+
+In the "Example" directory, we have included an example implementation of the designed tool. "15_question_bank.pdf" shows the general questions and the specific 15 questions that have been asked to this particular professor about his course named "Advanced Informatics". His original voice and cloned voice (answering to the 15 questions) are included in the zip file.  
